@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.nav ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header {
+  margin-top: 15px;
+  background: grey;
+}
